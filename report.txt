@@ -1,0 +1,120 @@
+CAR SERVICE INTAKE REPORT
+=========================
+
+Intake: SRV-2025-1102-045  (received 2025-11-02T08:40:00Z)
+Client: Pop Dan (CL-993, +40733xxxxxx, dan.pop@example.com)
+Car: Dacia Duster 2018 (VIN VF1AAAAA123456789, 98750 km, warranty: no)
+Priority: NORMAL
+
+Issues by severity:
+  1. [HIGH] ENG-OIL-LEAK [oil spots, burning smell] (since 97000 km)
+  2. [MEDIUM] SUS-RATTLE-FR [front rattle, over bumps] (since 95000 km)
+  3. [LOW] INF-NAV-CRASH [nav freeze] (since 93000 km)
+
+OBD codes:
+  P0420 (PENDING)
+  P0301 (HISTORY)
+Tests:
+  Oil pressure: NOT OK
+  Suspension test: OK
+
+MECHANICAL work order SRV-2025-1102-045-WO1
+  Task T-1 Replace oil gasket: 1.5 h x 40.00 = 60.00
+  Task T-2 Engine cleaning: 0.8 h x 40.00 = 32.00
+  Part GASK-12 Oil pan gasket: 1 x 22.50 = 22.50
+  Part OIL-5W40 Engine oil 5W40: 5 x 9.90 = 49.50
+  Labor: 92.00  Parts: 72.00  Work order total: 164.00
+
+ELECTRICAL work order SRV-2025-1102-045-WO2
+  Task T-3 Infotainment update: 0.6 h x 42.00 = 25.20
+  Part USB-16 USB stick 16GB: 1 x 6.00 = 6.00
+  Labor: 25.20  Parts: 6.00  Work order total: 31.20
+
+Work order ids: SRV-2025-1102-045-WO1, SRV-2025-1102-045-WO2
+
+Totals:
+  Labor total:  117.20 EUR
+  Parts total:  78.00 EUR
+  Subtotal:     195.20 EUR
+  Courtesy car: 5 days x 15.00 = 75.00 EUR
+  GRAND TOTAL:  270.20 EUR
+
+RELEASE STATUS: DO NOT RELEASE
+  - OBD code P0420 present
+  - Oil pressure test not OK
+Invoice paid: no
+
+-------------------------------------------
+
+Intake: SRV-2025-1102-046  (received 2025-11-02T09:25:00Z)
+Client: Varga Iulia (CL-994, +40754xxxxxx, iulia.varga@example.com)
+Car: Volkswagen Golf 7 2016 (VIN WVWZZZ1JZXW000321, 125600 km, warranty: no)
+Priority: HIGH
+
+Issues by severity:
+  1. [HIGH] BRAKE-PAD-WORN [squeaking noise, longer braking] (since 123000 km)
+  2. [LOW] AC-LOW-GAS [AC not cooling] (since 122000 km)
+
+OBD codes:
+  P0500 (CLEARED)
+Tests:
+  Brake fluid test: NOT OK
+  AC pressure: NOT OK
+
+MECHANICAL work order SRV-2025-1102-046-WO1
+  Task T-4 Replace brake pads: 1.2 h x 38.00 = 45.60
+  Task T-5 Refill AC gas: 0.5 h x 38.00 = 19.00
+  Part PAD-FR-VW7 Front brake pad set: 1 x 65.00 = 65.00
+  Part AC-GAS-1234 AC gas refill: 1 x 25.00 = 25.00
+  Labor: 64.60  Parts: 90.00  Work order total: 154.60
+
+Work order ids: SRV-2025-1102-046-WO1
+
+Totals:
+  Labor total:  64.60 EUR
+  Parts total:  90.00 EUR
+  Subtotal:     154.60 EUR
+  Courtesy car: not requested
+  GRAND TOTAL:  154.60 EUR
+
+RELEASE STATUS: OK to release
+Invoice paid: yes
+
+-------------------------------------------
+
+Intake: SRV-2025-1102-047  (received 2025-11-02T10:10:00Z)
+Client: Szabo Tamas (CL-995, +40745xxxxxx, tamas.szabo@example.com)
+Car: Honda Civic 2021 (VIN JHMZZZHYH12345678, 28200 km, warranty: yes)
+Priority: LOW
+
+Issues by severity:
+  1. [LOW] SENSOR-TPS-ERR [check engine light] (since 28000 km)
+
+OBD codes:
+  P0123 (PENDING)
+Tests:
+  Throttle position sensor test: NOT OK
+
+ELECTRICAL work order SRV-2025-1102-047-WO1
+  Task T-6 Replace TPS sensor: 0.9 h x 45.00 = 40.50
+  Part TPS-HONDA Throttle Position Sensor: 1 x 40.00 = 40.00
+  Labor: 40.50  Parts: 40.00  Work order total: 80.50
+
+Work order ids: SRV-2025-1102-047-WO1
+
+Totals:
+  Labor total:  40.50 EUR
+  Parts total:  40.00 EUR
+  Subtotal:     80.50 EUR
+  Courtesy car: not requested
+  GRAND TOTAL:  80.50 EUR
+
+RELEASE STATUS: OK to release
+Invoice paid: yes
+
+-------------------------------------------
+
+Invalid intakes (not processed):
+  - Intake number 4 skipped: Missing required field: vin
+
+Entities created while parsing: 33
